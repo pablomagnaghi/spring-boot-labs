@@ -6,7 +6,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class GreetingController {
-    @Value("${custom.message}")
+    //for yaml property custom.message
+    //@Value("${custom.message}")
+    @Value("${message}")
     private String message;
     @GetMapping("/")
     public String greeting() {
