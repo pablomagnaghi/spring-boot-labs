@@ -1,4 +1,4 @@
-package io.pivotal.workshop.configurationproperties;
+package io.pivotal.workshop;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
